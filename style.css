@@ -1,0 +1,114 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --radius: 8px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 80%;
+    margin: 100px auto;
+    padding: 80px 0;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-size: max(450px, 50%), max(450px, 50%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -200px left -25%, bottom -200px right -25%;
+}
+
+.wrapper {
+    max-width: min(25%, 250px);
+    min-width: 200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: var(--radius);
+}
+
+.main {
+    padding-bottom: 1.1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.profile {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+    margin-bottom: 20px;
+    border-radius: 60px;
+    outline: 4px solid white;
+}
+
+.decorative {
+    vertical-align: top;
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+}
+
+p {
+    text-align: center;
+}
+
+.partition {
+    width: 99%;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 92%);
+    height: 1px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    width: 100%;
+}
+
+.stats {
+    padding: 1em 1.5em;    
+}
+
+.faded {
+    color: hsl(0, 0%, 60%);
+}
+
+.small {
+    font-size: 0.8rem;
+}
+
+.tiny {
+    font-size: 0.7rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 100%;
+        margin: 100px auto;
+        padding: 80px 0;
+        background-color: hsl(185, 75%, 39%);
+        background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+        background-size: 60%, 70%;
+        background-repeat: no-repeat, no-repeat;
+        background-position: top -100px left -20%, bottom -100px right -30%;
+    }
+}
