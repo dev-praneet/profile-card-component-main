@@ -66,7 +66,7 @@ img {
 
 - The 'object-fit' property doesn't work with .svg images.
 
-- One difference between border and outline is that outline is with reference to the original object even if the object has been rounded off at corners by giving a border-radius whereas border is with reference to the trimmed version of the object. Got to know this while implementing the white 'border' on the profile picture.
+- One difference between border and outline is that outline is with reference to the original object even if the object has been rounded off at corners by giving a border-radius whereas border is with reference to the trimmed version of the object. Got to know this while implementing the white 'border' on the profile picture. Interestingly, this difference doesn't seem to be present in 'Mozilla Firefox' web browser.
 
 
 ## Author
