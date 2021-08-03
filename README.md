@@ -24,6 +24,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Desktop Screenshot
   ![](./screenshot_desktop.png)
+  
 - Mobile Screenshot
   ![](./screenshot_mobile.png)
 
