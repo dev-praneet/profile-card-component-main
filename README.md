@@ -24,8 +24,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/geeky-amat/profile-card-component-main)
+- [Live Site URL](https://geeky-amat.github.io/profile-card-component-main/)
 
 ## My process
 
@@ -38,7 +38,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-In doing this project some of the things that I learnt was that I could add more than one background images in any section. Also learnt that images are inline objects just like text and have previously defined padding-bottom even if we don't give it explicitly to take into account . To get rid of the padding-bottom, some rules that could be used are
+In doing this project some of the things that I learnt was that I could add more than one background images in any section. Also learnt that images are inline objects just like text and have previously defined padding-bottom even if we don't give it explicitly to take accomodate the descenders (eg. 'g', 'j', 'y' etc) . To get rid of the padding-bottom, some rules that could be used are
 
 ```css
 .image-container {
